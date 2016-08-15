@@ -1,1 +1,43 @@
-{"ociVersion":"0.5.0","platform":{"os":"linux","arch":"amd64"},"process":{"terminal":true,"user":{"uid":0,"gid":0},"args":["sh"],"env":["PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"],"cwd":"/"},"root":{"path":"rootfs"},"hooks":{},"linux":{"resources":{"devices":null,"memory":{"limit":0,"reservation":0,"swap":0,"kernelTCP":null},"cpu":{"shares":0}}},"solaris":{"cappedCPU":{},"cappedMemory":{}}}
+{
+    "hooks": {},
+    "linux": {
+        "resources": {
+            "cpu": {
+                "shares": 0
+            },
+            "devices": null,
+            "memory": {
+                "kernelTCP": null,
+                "limit": 0,
+                "reservation": 0,
+                "swap": 0
+            }
+        }
+    },
+    "ociVersion": "0.5.0",
+    "platform": {
+        "arch": "amd64",
+        "os": "linux"
+    },
+    "process": {
+        "args": [
+            "sh"
+        ],
+        "cwd": "/",
+        "env": [
+            "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+        ],
+        "terminal": true,
+        "user": {
+            "gid": 0,
+            "uid": 0
+        }
+    },
+    "root": {
+        "path": "rootfs"
+    },
+    "solaris": {
+        "cappedCPU": {},
+        "cappedMemory": {}
+    }
+}
