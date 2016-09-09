@@ -1,5 +1,9 @@
 #!/bin/bash
-# Thanks to Sergiusz Urbaniak
+# Thanks to Sergiusz Urbaniak for discussions and help with
+# using sha256sum
+
+# Given a directory name, this creates a new directory structure:
+# sha256/<sha256-of-contents>
 
 f=$1
 dirname=`dirname $f`
